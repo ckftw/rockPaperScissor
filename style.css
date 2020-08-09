@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #171a18;
+}
+
 section{
     height:100vh;  /*full screen*/
     background-color: #171a18;
@@ -89,4 +93,36 @@ div.fadeOut{
 div.fadeIn{
     opacity: 1;
     pointer-events: all;
+}
+
+
+
+@media all and (max-width:600px){
+    .winner{
+        font-size: 28px;
+    }
+
+    .player-hand{
+        width: 200px;
+    }
+
+    .computer-hand{
+        width:200px;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+
+    .options button{
+        margin: 20px;
+    }
+
+    .intro h1{
+        font-size: 28px;
+    }
+
+    .match {
+        top:52%;
+    }
 }
