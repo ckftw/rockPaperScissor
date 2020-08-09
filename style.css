@@ -6,7 +6,7 @@
 
 section{
     height:100vh;  /*full screen*/
-    background-color: rgb(39,41,68);
+    background-color: #171a18;
     font-family: sans-serif;
 }
 
@@ -49,9 +49,10 @@ section{
   height: 50px;
   background: none;
   border: none;
-  color: rgb(224, 224, 224);
+  font-weight: bold;
+  color: black;
   font-size: 20px;
-  background: rgb(45, 117, 96);
+  background: #0dd6e0;
   border-radius: 3px;
   cursor: pointer;
 }
